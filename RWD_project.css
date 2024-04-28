@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* -------------------------------------------------------------------- */
+/* Navbar Styling Start */
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.1);
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+}
+nav ul li {
+  padding: 3px;
+  margin: 2px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.create-new-post {
+  padding: 10px 20px;
+  /* background-color: #ff5a5f; */
+  background-color: #ffb924;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+/* Navbar Styling End */
+/* -------------------------------------------------------------------- */
+
+/* Header Styling Start */
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./images/headerbg.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.header-content h1 {
+  font-size: 5rem;
+  color: #14213d;
+  margin-top: 20px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.header-content p {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 25px;
+}
+.header-content a {
+  padding: 15px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* Header Styling End */
+
+/* -------------------------------------------------------------------- */
+
+/* Main Section Styling Starts */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-section {
+  padding: 20px;
+}
+.container-flex img {
+  width: 100%;
+  height: auto;
+}
+.container-flex h1 {
+  font-size: 2.9rem;
+  font-weight: bold;
+  color: #14213d;
+  margin: 10px;
+}
+.container-flex span {
+  font-size: 1.2rem;
+  color: #14213d;
+}
+.container-flex i {
+  padding: 15px;
+}
+.container-flex time {
+  color: gray;
+}
+.container-flex p {
+  font-size: 1.5rem;
+  padding: 15px 0px;
+}
+.container-flex a {
+  font-size: 1.2rem;
+}
+
+.sidebar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-box {
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.3);
+}
+.author-box img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.author-box h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.author-box h2 {
+  font-size: 2.5rem;
+}
+.author-box small {
+  font-size: 18px;
+}
+.author-box p {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main Section Styling ends */
+/* -------------------------------------------------------------------- */
+
+/* Footer Styling Starts */
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #003049;
+  color: #fff;
+  height: 400px;
+  padding: 30px;
+}
+.sn {
+  font-size: 70px;
+  color: #ffb924;
+}
+.flex-footer p {
+  font-size: 22px;
+  color: gray;
+  padding: 10px;
+}
+
+.contact {
+  padding: 20px;
+}
+.contact span {
+  font-size: 20px;
+  margin: 20px;
+  align-items: flex-start;
+  padding: 50px;
+}
+.contact span i {
+  font-size: 25px;
+  margin: 5px;
+  color: #ffb924;
+}
+.contact span a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0177b6;
+}
+/* Footer Styling Ends */
+
+/* -------------------------------------------------------------------- */
+/* Responsive Styling Starts */
+@media (min-width: 678px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+  nav ul {
+    flex-direction: row;
+    margin-right: 5px;
+  }
+  nav ul li {
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-section {
+    width: 70%;
+  }
+  .sidebar {
+    width: 30%;
+  }
+}
+/* Responsive Styling Ends */
+/* -------------------------------------------------------------------- */
